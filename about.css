@@ -1,0 +1,338 @@
+/* Reset some default browser styles */
+*{
+  margin:0px
+  padding:0px;
+  box-sizing : border-box;
+}
+body{
+  background-color:#808080;
+  overflow-x: hidden;
+}
+/* Style the header with a background color and navigation links */
+.wraper{
+  margin:0px 100px;
+}
+.header{
+  background-color:#fff;
+
+}
+.header > h1{
+          font-family:Arial Rounded MT Bold;
+          font-size:90px;
+          padding-left:30px ;
+          padding-top: 10px;
+          padding-bottom:30px;
+          color: #000000;
+}
+.main-nav > ul{
+  background-color:#292929;
+  list-style:name;
+  padding-left:30px;
+  line-height:3;
+}
+.main-nav>ul>li{
+  display:inline-block;
+  padding:12px;
+
+}
+.main-nav>ul>li>a{
+  font-family:cursive;
+  color:#FFF;
+  font-size:18px;
+  text-decoration:none;
+  color:#FFF;
+
+}
+.main-nav>ul>li>a>{
+   font-family:cursive;
+   color:#ADD8E6;
+   text-decoration:none;
+   color:#FFF;
+}
+
+.main-nav>ul>li:hover{
+
+background:#111111;
+}
+.main-nav>ul>li>a:hover {
+  color:peachpuff;
+}
+.main-nav p{
+
+color:white;
+font-size:28px;
+display: inline;
+margin-left:600;
+
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.company-info, .company-address {
+  flex-basis: 48%;
+}
+
+/* Style the statistics */
+.company-address h2 {
+  margin-top: 20px;
+}
+
+.company-address ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+/* Style the footer (similar to home page) */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Add hover effect for navigation links */
+nav a:hover {
+  color: #ff9900; /* Change to your brand color */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  header {
+      padding: 10px 0;
+  }
+  header h1 {
+      font-size: 28px;
+  }
+  nav li {
+      margin-right: 10px;
+  }
+
+  .about-section {
+      flex-direction: column;
+  }
+  .company-info, .company-address {
+      flex-basis: 100%;
+  }
+
+  .company-address ul {
+      padding-left: 10px;
+  }
+}
+.footer-distributed{
+	
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+
+.footer-company-name p{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+}
+/* Footer social icons */
+
+.footer-distributed .footer-icons{
+	margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height:35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 5px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+}
+
+.footer-distributed .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+
+/* The contact form */
+
+.footer-distributed form{
+	display: inline-block;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 350px;
+	padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+	color:  #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+	color:  #5c666b;
+	opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder{
+	color:  #5c666b;
+}
+
+
+.footer-distributed form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.footer-distributed form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.footer-distributed form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-company-name{
+		font-size: 12px;
+	}
+
+	.footer-distributed form input,
+	.footer-distributed form textarea{
+		width: 250px;
+	}
+
+	.footer-distributed form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.footer-distributed{
+		padding: 30px;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.footer-distributed .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.footer-distributed form{
+		margin-top: 30px;
+	}
+
+	.footer-distributed form{
+		display: block;
+	}
+
+	.footer-distributed form button{
+		float: none;
+	}
+}
